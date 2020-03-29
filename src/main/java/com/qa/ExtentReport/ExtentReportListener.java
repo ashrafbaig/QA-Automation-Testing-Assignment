@@ -23,7 +23,7 @@ public class ExtentReportListener implements IReporter {
 	private ExtentReports extent;
 
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
-		extent = new ExtentReports(outputDirectory + File.separator + "IES_Appmix152Prod_Project_ExtentReport.html",
+		extent = new ExtentReports(outputDirectory + File.separator + "AutomationPracticeProject_ExtentReport.html",
 				true);
 
 		for (ISuite suite : suites) {
